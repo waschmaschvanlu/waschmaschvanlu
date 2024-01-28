@@ -57,13 +57,36 @@
   <img height="400" src="https://i.ibb.co/rbyGLbM/Whats-App-Bild-2024-01-24-um-12-47-34-273b49f9.jpg"  />
 </div>
 
-###
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
 
-<br clear="both">
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 
-<img src="https://raw.githubusercontent.com/waschmaschvanlu/waschmaschvanlu/output/snake.svg" alt="Snake animation" />
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 
-###
+<script>
+    GitHubCalendar(".calendar", "waschmaschvanlu");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "waschmaschvanlu", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "your-username", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${username}`)
+       }
+    }).then(r => r.text())
+</script>
 
 <br clear="both">
 
