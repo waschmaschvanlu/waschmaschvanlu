@@ -81,7 +81,7 @@
     GitHubCalendar(".calendar", "waschmaschvanlu", { responsive: true });
 
     // Use a proxy
-    GitHubCalendar(".calendar", "your-username", {
+    GitHubCalendar(".calendar", "waschmaschvanlu", {
        proxy (username) {
          return fetch(`https://your-proxy.com/github?user=${username}`)
        }
