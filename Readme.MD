@@ -56,23 +56,4 @@
 <div align="center">
   <img height="400" src="https://i.ibb.co/rbyGLbM/Whats-App-Bild-2024-01-24-um-12-47-34-273b49f9.jpg"  />
 </div>
-
-<!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/waschmaschvanlu/count.svg?"  />
-</div>
-
 ###
