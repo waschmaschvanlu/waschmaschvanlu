@@ -68,25 +68,6 @@
   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-</div>
-
-<script>
-    GitHubCalendar(".calendar", "waschmaschvanlu");
-
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "waschmaschvanlu", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "waschmaschvanlu", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    }).then(r => r.text())
-</script>
 
 <br clear="both">
 
