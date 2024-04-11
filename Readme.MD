@@ -53,6 +53,4 @@
 
 <br clear="both">
 
-<div align="center">
-  <img height="400" src="https://i.ibb.co/rbyGLbM/Whats-App-Bild-2024-01-24-um-12-47-34-273b49f9.jpg"  />
-</div>
+
